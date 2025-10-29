@@ -1,7 +1,7 @@
 import axios from 'axios';
 import type { Product, Cart, Receipt } from '../types';
 
-const API_BASE_URL = 'http://localhost:3000/v1/api';
+const API_BASE_URL = 'https://bckend-2.onrender.com/v1/api/';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
