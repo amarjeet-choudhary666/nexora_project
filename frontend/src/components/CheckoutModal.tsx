@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import type { Cart, CheckoutData, Receipt } from '../types';
-import { cartAPI } from '../services/api';
 import { useCart } from '../context/CartContext';
 import ReceiptModal from './ReceiptModal';
 
